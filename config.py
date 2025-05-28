@@ -1,3 +1,3 @@
 # winSIM downloader configuration
-USERNAME = "your_username_here"
-PASSWORD = "your_password_here"
+USERNAME = "td+winsim2"
+PASSWORD = "S@TWmQ3q2QKk&LeJzR~k"

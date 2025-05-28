@@ -23,10 +23,16 @@ This script downloads your monthly invoices from the winSIM customer portal usin
      ```
    - `config.py` is in `.gitignore` and will not be committed.
 
+
 ## Usage
 Run the script using Poetry:
 ```sh
 poetry run python winsim.py
+```
+
+By default, the script stops when it finds the first invoice file that already exists in the `invoices/` directory. To check and attempt to download all invoices (skipping already downloaded files), use the `--all` option:
+```sh
+poetry run python winsim.py --all
 ```
 
 Invoices will be saved in the `invoices/` directory.
