@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "winsim"
+version = "0.1.0"
+description = "Script to download monthly invoice from winSIM service portal."
+authors = ["Your Name <your@email.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
